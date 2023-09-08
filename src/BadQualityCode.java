@@ -10,14 +10,6 @@ public class BadQualityCode {
         System.out.println(a + b);
     }
 
-    public static int Add(int x, int y) {
-        int sum = x + y;
-        return sum;
-    }
-
-    public static void DoNothing() {
-        // This method does nothing
-    }
 
     public static int Multiply(int x, int y) {
         int product = 0;
@@ -34,12 +26,5 @@ public class BadQualityCode {
             System.out.print(i + " ");
         }
     }
-
-    public static void BadlyFormattedCode()
-    {
-        int x=5;
-        int y=10;
-        int result=x+y;
-        System.out.println("The result is: "+result);}
 }
 
